@@ -1,0 +1,7 @@
+userName: khanqa_rcZSwV
+accessKey: RKS7tjySWfBNQTrkMsRo
+platforms:
+  - deviceName: Samsung Galaxy S22
+    osVersion: 12.0
+    browserName: android
+    deviceOrientation: portrait
