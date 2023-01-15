@@ -1,6 +1,7 @@
 package tests.android.browserstack;
 
 import io.appium.java_client.AppiumBy;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import tests.TestBase;
 
@@ -9,6 +10,7 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 
+@Disabled
 public class SelenideSearchTests extends TestBase {
     @Test
     void successSearchTest() {

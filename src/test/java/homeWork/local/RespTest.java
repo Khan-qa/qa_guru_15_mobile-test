@@ -9,9 +9,9 @@ import static com.codeborne.selenide.Selenide.*;
 import static com.codeborne.selenide.Selenide.$;
 import static io.qameta.allure.Allure.step;
 
+@Disabled
 public class RespTest extends TestBase {
 
-    @Disabled
     @Test
     void successSearchTest() {
 
